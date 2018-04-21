@@ -113,9 +113,13 @@ a{
 	z-index: 100;
 	display: none;
 }
+.pop_pos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 .pop_con{
 	width: 80%;
-	margin: 20% auto;
 	background: #fff;
 	border-radius: 4px;
 	height: 60%;
@@ -123,6 +127,10 @@ a{
 	overflow-y: auto;
 	padding: 20px;
 	color: #666;
+	position: absolute;
+    left: 10%;
+    top: 20%;
+
 }
 .pop_con h2{
 	font-size: 14px;
@@ -142,7 +150,7 @@ a{
 	bottom: 50px;
 	left: 50%;
 	margin-left: -17px;
-	position: fixed;
+	position: absolute;
 	cursor: pointer;
 }
 #error{
